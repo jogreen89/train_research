@@ -1,6 +1,11 @@
 class Station:
-    def __init__(self, name):
+    def __init__(self, name, address = None):
         self.name = name
+        self.address = address
 
-    def get_station(self):
+
+    def get_name(self):
         return self.name
+
+    def get_address(self):
+        return self.address
