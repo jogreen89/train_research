@@ -3,7 +3,6 @@ class Station:
         self.name = name
         self.address = address
 
-
     def get_name(self):
         return self.name
 
